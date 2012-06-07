@@ -16,7 +16,6 @@ import org.hamciuc.projecteuler.utils.ProblemUtils;
  * @author Adrian
  * 
  */
-
 public class Problem7 {
 
 	public static void main(String[] args) {
