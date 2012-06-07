@@ -42,4 +42,22 @@ public class ProblemUtils {
 		}
 		return true;
 	}
+
+	/**
+	 * Returns the sum of divisors for the given number x
+	 * 
+	 * @param x
+	 *            the number for which we want the sum of divisors
+	 * @return the sum of divisors for that number
+	 */
+	public static int sumOfDivisors(int x) {
+		int sum = 0;
+		for (int i = 1; i <= x / 2; i++) {
+			if (x % i == 0) {
+				sum += i;
+			}
+		}
+		return sum;
+	}
+
 }
