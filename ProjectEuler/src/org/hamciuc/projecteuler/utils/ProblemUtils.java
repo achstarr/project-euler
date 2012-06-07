@@ -1,7 +1,7 @@
 package org.hamciuc.projecteuler.utils;
 
 /**
- * Contains various utility methods called in several problems
+ * Contains various utility methods called in several problems.
  * 
  * @author Adrian
  * 
